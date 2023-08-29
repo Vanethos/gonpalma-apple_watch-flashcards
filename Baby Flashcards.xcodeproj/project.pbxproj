@@ -1,0 +1,733 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8D20DAB82A9CB57C00D7BA47 /* Baby Flashcards Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 8D20DAB72A9CB57C00D7BA47 /* Baby Flashcards Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		8D20DABD2A9CB57C00D7BA47 /* Baby_FlashcardsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D20DABC2A9CB57C00D7BA47 /* Baby_FlashcardsApp.swift */; };
+		8D20DABF2A9CB57C00D7BA47 /* AlphabetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D20DABE2A9CB57C00D7BA47 /* AlphabetView.swift */; };
+		8D20DAC12A9CB57D00D7BA47 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D20DAC02A9CB57D00D7BA47 /* Assets.xcassets */; };
+		8D20DAC42A9CB57D00D7BA47 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D20DAC32A9CB57D00D7BA47 /* Preview Assets.xcassets */; };
+		8D20DACE2A9CB57D00D7BA47 /* Baby_Flashcards_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D20DACD2A9CB57D00D7BA47 /* Baby_Flashcards_Watch_AppTests.swift */; };
+		8D20DAD82A9CB57D00D7BA47 /* Baby_Flashcards_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D20DAD72A9CB57D00D7BA47 /* Baby_Flashcards_Watch_AppUITests.swift */; };
+		8D20DADA2A9CB57D00D7BA47 /* Baby_Flashcards_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D20DAD92A9CB57D00D7BA47 /* Baby_Flashcards_Watch_AppUITestsLaunchTests.swift */; };
+		8DC496A52A9CF8A600494B6E /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DC496A42A9CF8A600494B6E /* HomeView.swift */; };
+		8DC496AA2A9CFBB400494B6E /* RotatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DC496A92A9CFBB400494B6E /* RotatingView.swift */; };
+		8DC496AC2A9CFF2C00494B6E /* AnimalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DC496AB2A9CFF2C00494B6E /* AnimalView.swift */; };
+		8DC496AE2A9D038400494B6E /* ColorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DC496AD2A9D038400494B6E /* ColorView.swift */; };
+		8DC496B02A9D118300494B6E /* NumbersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DC496AF2A9D118300494B6E /* NumbersView.swift */; };
+		8DC496B22A9D120E00494B6E /* NavigationButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DC496B12A9D120E00494B6E /* NavigationButton.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8D20DAB92A9CB57C00D7BA47 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8D20DAAB2A9CB57C00D7BA47 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8D20DAB62A9CB57C00D7BA47;
+			remoteInfo = "Baby Flashcards Watch App";
+		};
+		8D20DACA2A9CB57D00D7BA47 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8D20DAAB2A9CB57C00D7BA47 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8D20DAB62A9CB57C00D7BA47;
+			remoteInfo = "Baby Flashcards Watch App";
+		};
+		8D20DAD42A9CB57D00D7BA47 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8D20DAAB2A9CB57C00D7BA47 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8D20DAB62A9CB57C00D7BA47;
+			remoteInfo = "Baby Flashcards Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8D20DAE02A9CB57D00D7BA47 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				8D20DAB82A9CB57C00D7BA47 /* Baby Flashcards Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		8D20DAB12A9CB57C00D7BA47 /* Baby Flashcards.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Baby Flashcards.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D20DAB72A9CB57C00D7BA47 /* Baby Flashcards Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Baby Flashcards Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D20DABC2A9CB57C00D7BA47 /* Baby_FlashcardsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Baby_FlashcardsApp.swift; sourceTree = "<group>"; };
+		8D20DABE2A9CB57C00D7BA47 /* AlphabetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlphabetView.swift; sourceTree = "<group>"; };
+		8D20DAC02A9CB57D00D7BA47 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8D20DAC32A9CB57D00D7BA47 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8D20DAC92A9CB57D00D7BA47 /* Baby Flashcards Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Baby Flashcards Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D20DACD2A9CB57D00D7BA47 /* Baby_Flashcards_Watch_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Baby_Flashcards_Watch_AppTests.swift; sourceTree = "<group>"; };
+		8D20DAD32A9CB57D00D7BA47 /* Baby Flashcards Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Baby Flashcards Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D20DAD72A9CB57D00D7BA47 /* Baby_Flashcards_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Baby_Flashcards_Watch_AppUITests.swift; sourceTree = "<group>"; };
+		8D20DAD92A9CB57D00D7BA47 /* Baby_Flashcards_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Baby_Flashcards_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8DC496A42A9CF8A600494B6E /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		8DC496A92A9CFBB400494B6E /* RotatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotatingView.swift; sourceTree = "<group>"; };
+		8DC496AB2A9CFF2C00494B6E /* AnimalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalView.swift; sourceTree = "<group>"; };
+		8DC496AD2A9D038400494B6E /* ColorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorView.swift; sourceTree = "<group>"; };
+		8DC496AF2A9D118300494B6E /* NumbersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumbersView.swift; sourceTree = "<group>"; };
+		8DC496B12A9D120E00494B6E /* NavigationButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationButton.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D20DAB42A9CB57C00D7BA47 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D20DAC62A9CB57D00D7BA47 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D20DAD02A9CB57D00D7BA47 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8D20DAAA2A9CB57C00D7BA47 = {
+			isa = PBXGroup;
+			children = (
+				8D20DABB2A9CB57C00D7BA47 /* Baby Flashcards Watch App */,
+				8D20DACC2A9CB57D00D7BA47 /* Baby Flashcards Watch AppTests */,
+				8D20DAD62A9CB57D00D7BA47 /* Baby Flashcards Watch AppUITests */,
+				8D20DAB22A9CB57C00D7BA47 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8D20DAB22A9CB57C00D7BA47 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D20DAB12A9CB57C00D7BA47 /* Baby Flashcards.app */,
+				8D20DAB72A9CB57C00D7BA47 /* Baby Flashcards Watch App.app */,
+				8D20DAC92A9CB57D00D7BA47 /* Baby Flashcards Watch AppTests.xctest */,
+				8D20DAD32A9CB57D00D7BA47 /* Baby Flashcards Watch AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8D20DABB2A9CB57C00D7BA47 /* Baby Flashcards Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				8DC496A62A9CF8E100494B6E /* Views */,
+				8DC496A32A9CF82C00494B6E /* Screens */,
+				8D20DABC2A9CB57C00D7BA47 /* Baby_FlashcardsApp.swift */,
+				8D20DAC02A9CB57D00D7BA47 /* Assets.xcassets */,
+				8D20DAC22A9CB57D00D7BA47 /* Preview Content */,
+			);
+			path = "Baby Flashcards Watch App";
+			sourceTree = "<group>";
+		};
+		8D20DAC22A9CB57D00D7BA47 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				8D20DAC32A9CB57D00D7BA47 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8D20DACC2A9CB57D00D7BA47 /* Baby Flashcards Watch AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				8D20DACD2A9CB57D00D7BA47 /* Baby_Flashcards_Watch_AppTests.swift */,
+			);
+			path = "Baby Flashcards Watch AppTests";
+			sourceTree = "<group>";
+		};
+		8D20DAD62A9CB57D00D7BA47 /* Baby Flashcards Watch AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8D20DAD72A9CB57D00D7BA47 /* Baby_Flashcards_Watch_AppUITests.swift */,
+				8D20DAD92A9CB57D00D7BA47 /* Baby_Flashcards_Watch_AppUITestsLaunchTests.swift */,
+			);
+			path = "Baby Flashcards Watch AppUITests";
+			sourceTree = "<group>";
+		};
+		8DC496A32A9CF82C00494B6E /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				8D20DABE2A9CB57C00D7BA47 /* AlphabetView.swift */,
+				8DC496A42A9CF8A600494B6E /* HomeView.swift */,
+				8DC496AB2A9CFF2C00494B6E /* AnimalView.swift */,
+				8DC496AD2A9D038400494B6E /* ColorView.swift */,
+				8DC496AF2A9D118300494B6E /* NumbersView.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		8DC496A62A9CF8E100494B6E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8DC496A92A9CFBB400494B6E /* RotatingView.swift */,
+				8DC496B12A9D120E00494B6E /* NavigationButton.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D20DAB02A9CB57C00D7BA47 /* Baby Flashcards */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D20DAE12A9CB57D00D7BA47 /* Build configuration list for PBXNativeTarget "Baby Flashcards" */;
+			buildPhases = (
+				8D20DAAF2A9CB57C00D7BA47 /* Resources */,
+				8D20DAE02A9CB57D00D7BA47 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8D20DABA2A9CB57C00D7BA47 /* PBXTargetDependency */,
+			);
+			name = "Baby Flashcards";
+			productName = "Baby Flashcards";
+			productReference = 8D20DAB12A9CB57C00D7BA47 /* Baby Flashcards.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		8D20DAB62A9CB57C00D7BA47 /* Baby Flashcards Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D20DADD2A9CB57D00D7BA47 /* Build configuration list for PBXNativeTarget "Baby Flashcards Watch App" */;
+			buildPhases = (
+				8D20DAB32A9CB57C00D7BA47 /* Sources */,
+				8D20DAB42A9CB57C00D7BA47 /* Frameworks */,
+				8D20DAB52A9CB57C00D7BA47 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Baby Flashcards Watch App";
+			productName = "Baby Flashcards Watch App";
+			productReference = 8D20DAB72A9CB57C00D7BA47 /* Baby Flashcards Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8D20DAC82A9CB57D00D7BA47 /* Baby Flashcards Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D20DAE42A9CB57D00D7BA47 /* Build configuration list for PBXNativeTarget "Baby Flashcards Watch AppTests" */;
+			buildPhases = (
+				8D20DAC52A9CB57D00D7BA47 /* Sources */,
+				8D20DAC62A9CB57D00D7BA47 /* Frameworks */,
+				8D20DAC72A9CB57D00D7BA47 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8D20DACB2A9CB57D00D7BA47 /* PBXTargetDependency */,
+			);
+			name = "Baby Flashcards Watch AppTests";
+			productName = "Baby Flashcards Watch AppTests";
+			productReference = 8D20DAC92A9CB57D00D7BA47 /* Baby Flashcards Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8D20DAD22A9CB57D00D7BA47 /* Baby Flashcards Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D20DAE72A9CB57D00D7BA47 /* Build configuration list for PBXNativeTarget "Baby Flashcards Watch AppUITests" */;
+			buildPhases = (
+				8D20DACF2A9CB57D00D7BA47 /* Sources */,
+				8D20DAD02A9CB57D00D7BA47 /* Frameworks */,
+				8D20DAD12A9CB57D00D7BA47 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8D20DAD52A9CB57D00D7BA47 /* PBXTargetDependency */,
+			);
+			name = "Baby Flashcards Watch AppUITests";
+			productName = "Baby Flashcards Watch AppUITests";
+			productReference = 8D20DAD32A9CB57D00D7BA47 /* Baby Flashcards Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8D20DAAB2A9CB57C00D7BA47 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					8D20DAB02A9CB57C00D7BA47 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					8D20DAB62A9CB57C00D7BA47 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					8D20DAC82A9CB57D00D7BA47 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 8D20DAB62A9CB57C00D7BA47;
+					};
+					8D20DAD22A9CB57D00D7BA47 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 8D20DAB62A9CB57C00D7BA47;
+					};
+				};
+			};
+			buildConfigurationList = 8D20DAAE2A9CB57C00D7BA47 /* Build configuration list for PBXProject "Baby Flashcards" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8D20DAAA2A9CB57C00D7BA47;
+			productRefGroup = 8D20DAB22A9CB57C00D7BA47 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D20DAB02A9CB57C00D7BA47 /* Baby Flashcards */,
+				8D20DAB62A9CB57C00D7BA47 /* Baby Flashcards Watch App */,
+				8D20DAC82A9CB57D00D7BA47 /* Baby Flashcards Watch AppTests */,
+				8D20DAD22A9CB57D00D7BA47 /* Baby Flashcards Watch AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D20DAAF2A9CB57C00D7BA47 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D20DAB52A9CB57C00D7BA47 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D20DAC42A9CB57D00D7BA47 /* Preview Assets.xcassets in Resources */,
+				8D20DAC12A9CB57D00D7BA47 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D20DAC72A9CB57D00D7BA47 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D20DAD12A9CB57D00D7BA47 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D20DAB32A9CB57C00D7BA47 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DC496AE2A9D038400494B6E /* ColorView.swift in Sources */,
+				8DC496AC2A9CFF2C00494B6E /* AnimalView.swift in Sources */,
+				8DC496AA2A9CFBB400494B6E /* RotatingView.swift in Sources */,
+				8DC496A52A9CF8A600494B6E /* HomeView.swift in Sources */,
+				8DC496B02A9D118300494B6E /* NumbersView.swift in Sources */,
+				8DC496B22A9D120E00494B6E /* NavigationButton.swift in Sources */,
+				8D20DABF2A9CB57C00D7BA47 /* AlphabetView.swift in Sources */,
+				8D20DABD2A9CB57C00D7BA47 /* Baby_FlashcardsApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D20DAC52A9CB57D00D7BA47 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D20DACE2A9CB57D00D7BA47 /* Baby_Flashcards_Watch_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D20DACF2A9CB57D00D7BA47 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D20DAD82A9CB57D00D7BA47 /* Baby_Flashcards_Watch_AppUITests.swift in Sources */,
+				8D20DADA2A9CB57D00D7BA47 /* Baby_Flashcards_Watch_AppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8D20DABA2A9CB57C00D7BA47 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8D20DAB62A9CB57C00D7BA47 /* Baby Flashcards Watch App */;
+			targetProxy = 8D20DAB92A9CB57C00D7BA47 /* PBXContainerItemProxy */;
+		};
+		8D20DACB2A9CB57D00D7BA47 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8D20DAB62A9CB57C00D7BA47 /* Baby Flashcards Watch App */;
+			targetProxy = 8D20DACA2A9CB57D00D7BA47 /* PBXContainerItemProxy */;
+		};
+		8D20DAD52A9CB57D00D7BA47 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8D20DAB62A9CB57C00D7BA47 /* Baby Flashcards Watch App */;
+			targetProxy = 8D20DAD42A9CB57D00D7BA47 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		8D20DADB2A9CB57D00D7BA47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8D20DADC2A9CB57D00D7BA47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		8D20DADE2A9CB57D00D7BA47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Baby Flashcards Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = 65W87DD398;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Baby Flashcards";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gpalma.Baby-Flashcards.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Debug;
+		};
+		8D20DADF2A9CB57D00D7BA47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Baby Flashcards Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = 65W87DD398;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Baby Flashcards";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gpalma.Baby-Flashcards.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Release;
+		};
+		8D20DAE22A9CB57D00D7BA47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 65W87DD398;
+				INFOPLIST_KEY_CFBundleDisplayName = "Baby Flashcards";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gpalma.Baby-Flashcards";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		8D20DAE32A9CB57D00D7BA47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 65W87DD398;
+				INFOPLIST_KEY_CFBundleDisplayName = "Baby Flashcards";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gpalma.Baby-Flashcards";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8D20DAE52A9CB57D00D7BA47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 65W87DD398;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gpalma.Baby-Flashcards-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Baby Flashcards Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Baby Flashcards Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Debug;
+		};
+		8D20DAE62A9CB57D00D7BA47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 65W87DD398;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gpalma.Baby-Flashcards-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Baby Flashcards Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Baby Flashcards Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Release;
+		};
+		8D20DAE82A9CB57D00D7BA47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 65W87DD398;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gpalma.Baby-Flashcards-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "Baby Flashcards Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Debug;
+		};
+		8D20DAE92A9CB57D00D7BA47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 65W87DD398;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gpalma.Baby-Flashcards-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "Baby Flashcards Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8D20DAAE2A9CB57C00D7BA47 /* Build configuration list for PBXProject "Baby Flashcards" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D20DADB2A9CB57D00D7BA47 /* Debug */,
+				8D20DADC2A9CB57D00D7BA47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8D20DADD2A9CB57D00D7BA47 /* Build configuration list for PBXNativeTarget "Baby Flashcards Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D20DADE2A9CB57D00D7BA47 /* Debug */,
+				8D20DADF2A9CB57D00D7BA47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8D20DAE12A9CB57D00D7BA47 /* Build configuration list for PBXNativeTarget "Baby Flashcards" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D20DAE22A9CB57D00D7BA47 /* Debug */,
+				8D20DAE32A9CB57D00D7BA47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8D20DAE42A9CB57D00D7BA47 /* Build configuration list for PBXNativeTarget "Baby Flashcards Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D20DAE52A9CB57D00D7BA47 /* Debug */,
+				8D20DAE62A9CB57D00D7BA47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8D20DAE72A9CB57D00D7BA47 /* Build configuration list for PBXNativeTarget "Baby Flashcards Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D20DAE82A9CB57D00D7BA47 /* Debug */,
+				8D20DAE92A9CB57D00D7BA47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8D20DAAB2A9CB57C00D7BA47 /* Project object */;
+}

@@ -10,6 +10,7 @@ import CoreMotion
 
 struct RotatingView<Content: View>: View  {
     let originalViews: [Content]
+    let keys: [String]
     @State private var views: [Content]
     @State private var currentIndex = 0
     @State private var isFacingUser = true
@@ -18,8 +19,9 @@ struct RotatingView<Content: View>: View  {
     
     let motionManager = CMMotionManager()
     
-    init(views: [Content]) {
+    init(views: [Content], keys: [String]) {
         self.originalViews = views
+        self.keys = keys
         _views = State(initialValue: views)
     }
     
@@ -113,7 +115,8 @@ struct RotatingView_Previews: PreviewProvider {
                     .font(.system(size: 70, weight: .heavy, design: .rounded)),
                 Text(String("B"))
                     .font(.system(size: 70, weight: .heavy, design: .rounded))
-            ]
+            ],
+            keys: []
         )
     }
 }

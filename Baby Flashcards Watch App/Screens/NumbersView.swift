@@ -8,15 +8,26 @@
 import SwiftUI
 
 struct NumbersView: View {
-    let numbers = (0...9).map { String($0) }
-
+    let numbers = [
+        "one": "1",
+        "two": "2",
+        "three": "3",
+        "four": "4",
+        "five": "5",
+        "six": "6",
+        "seven": "7",
+        "eight": "8",
+        "nine": "9",
+        "ten": "10"
+    ]
+    
     
     var body: some View {
         RotatingView<Text>(views:
-                            numbers.map {
+                            numbers.values.map {
             char in Text(String(char))
                 .font(.system(size: 120, weight: .heavy, design: .rounded))
-        }
+        }, keys: Array(numbers.keys)
         )
     }
 }

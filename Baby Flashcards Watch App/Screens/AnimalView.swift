@@ -9,14 +9,45 @@ import SwiftUI
 
 struct AnimalView: View {
     
-    let alphabet = Array("🦊🐮🐶🐱🐭🐴🦁🐨🐷🐧🐵🐸🐍🦀🐡🐬🐳🦭🪼🐓🦔🦥🐘🦑🐙🐛🐺🦗🐝🪱")
+    let animals = [
+        "fox" : "🦊",
+        "cow" : "🐮",
+        "dog" : "🐶",
+        "cat" : "🐱",
+        "mouse" : "🐭",
+        "horse" : "🐴",
+        "lion" : "🦁",
+        "koala" : "🐨",
+        "pig" : "🐷",
+        "penguin" : "🐧",
+        "monkey" : "🐵",
+        "frog" : "🐸",
+        "snake" : "🐍",
+        "crab" : "🦀",
+        "fish" : "🐡",
+        "dolphin" : "🐬",
+        "whale" : "🐳",
+        "seal" : "🦭",
+        "jellyfish" : "🪼",
+        "chicken" : "🐓",
+        "porcupine" : "🦔",
+        "sloth" : "🦥",
+        "elephant" : "🐘",
+        "squid" : "🦑",
+        "octopus" : "🐙",
+        "catterpilar" : "🐛",
+        "wolf" : "🐺",
+        "cricket" : "🦗",
+        "bee" : "🐝",
+        "worm" : "🪱",
+    ]
     
     var body: some View {
         RotatingView<Text>(views:
-                            alphabet.map {
+                            animals.values.map {
             char in Text(String(char))
                 .font(.system(size: 120, weight: .heavy, design: .rounded))
-        }
+        }, keys: Array(animals.keys)
         )
     }
     

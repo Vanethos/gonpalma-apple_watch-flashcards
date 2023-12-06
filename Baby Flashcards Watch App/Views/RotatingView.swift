@@ -7,15 +7,19 @@
 
 import SwiftUI
 import CoreMotion
+import AVFoundation
 
-struct RotatingView<Content: View>: View  {
+
+struct RotatingView<Content: View>: View {
     let originalViews: [Content]
     let keys: [String]
+    @State private var isOptionsSheetPresented = false
     @State private var views: [Content]
     @State private var currentIndex = 0
     @State private var isFacingUser = true
-    @State private var isOptionsSheetPresented = false
     @State private var isRandomListEnabled = false
+    @State private var audioPlayer: AVAudioPlayer?
+    private var audioPlayer: AVAudioPlayer?
     
     let motionManager = CMMotionManager()
     
@@ -31,7 +35,7 @@ struct RotatingView<Content: View>: View  {
                 .rotationEffect(.degrees(isFacingUser ? 0 : 180))
                 .onAppear(perform: startMonitoringDeviceMotion)
                 .onTapGesture {
-                    updateIndex()
+                    playSound(soundName: keys[currentIndex])
                 }
             VStack {
                 HStack {
@@ -45,13 +49,13 @@ struct RotatingView<Content: View>: View  {
                             isOptionsSheetPresented = true
                         }
                         .sheet(isPresented: $isOptionsSheetPresented) {
-                            OptionsView(isRandomListEnabled: $isRandomListEnabled)
+                            OptionsView(isOptionsSheetPresented: $isOptionsSheetPresented, isRandomListEnabled: $isRandomListEnabled)
                         }
                 }
                 
                 Spacer()
             }
-           
+            
         }
         
     }
@@ -82,6 +86,24 @@ struct RotatingView<Content: View>: View  {
         }
     }
     
+    func playSound(soundName: String) {
+        let directory = UserPreferences.selectedLanguage
+        print(directory)
+        if let path = Bundle.main.path(forResource: soundName.lowercased(), ofType: "mp3", inDirectory: directory) {
+            let url = URL(fileURLWithPath: path)
+            do {
+                audioPlayer = try AVAudioPlayer(contentsOf: url)
+                audioPlayer?.prepareToPlay() // Preload audio
+                audioPlayer?.play()
+                print("Sound played")
+            } catch let audioError as NSError {
+                print("Error playing sound: \(audioError.localizedDescription)")
+            }
+        } else {
+            print("No sound found")
+        }
+    }
+    
     func updateIndex() {
         if isRandomListEnabled {
             views = originalViews.shuffled()
@@ -94,18 +116,57 @@ struct RotatingView<Content: View>: View  {
 }
 
 struct OptionsView: View {
+    @Binding var isOptionsSheetPresented: Bool
     @Binding var isRandomListEnabled: Bool
+    @State private var selectedLanguage = UserPreferences.selectedLanguage
+    let languages = [
+        "en": "English",
+        "pt": "Portuguese",
+        "es": "Spanish",
+        "de": "German",
+        "fi": "Finnish",
+        "it": "Italian",
+        "nl": "Dutch"
+    ]
     
     var body: some View {
-        VStack(spacing: 20) {
-            Toggle(isOn: $isRandomListEnabled) {
-                Text("Random List")
-            }
-            Spacer()
+        ScrollView {
+            VStack(alignment: .leading, spacing: 10) {
+                
+                Toggle(isOn: $isRandomListEnabled) {
+                    Text("Random List")
+                }
+                
+                Divider()
+                
+                Text("Languages")
+                    .font(.headline)
+                
+                ForEach(Array(languages.keys), id: \.self) { language in
+                    Button(action: {
+                        selectedLanguage = language
+                        UserPreferences.selectedLanguage = language
+                        isOptionsSheetPresented = false
+                    }) {
+                        HStack {
+                            Text(languages[language, default: "Unknown"])
+                            Spacer()
+                            if language == selectedLanguage {
+                                Image(systemName: "checkmark")
+                                    .foregroundColor(.green)
+                            }
+                        }
+                    }
+                }
+                
+            }.padding(.horizontal)
         }
-        .padding()
     }
 }
+
+
+
+
 
 struct RotatingView_Previews: PreviewProvider {
     static var previews: some View {

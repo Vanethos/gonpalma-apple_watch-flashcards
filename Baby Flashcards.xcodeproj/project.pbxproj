@@ -21,6 +21,15 @@
 		8DC496AE2A9D038400494B6E /* ColorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DC496AD2A9D038400494B6E /* ColorView.swift */; };
 		8DC496B02A9D118300494B6E /* NumbersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DC496AF2A9D118300494B6E /* NumbersView.swift */; };
 		8DC496B22A9D120E00494B6E /* NavigationButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DC496B12A9D120E00494B6E /* NavigationButton.swift */; };
+		8DCFB5A02A9E52B6004137A7 /* UserPreferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DCFB59F2A9E52B6004137A7 /* UserPreferences.swift */; };
+		8DCFB5A82A9E56D0004137A7 /* fi in Resources */ = {isa = PBXBuildFile; fileRef = 8DCFB5A12A9E56CF004137A7 /* fi */; };
+		8DCFB5A92A9E56D0004137A7 /* en in Resources */ = {isa = PBXBuildFile; fileRef = 8DCFB5A22A9E56CF004137A7 /* en */; };
+		8DCFB5AA2A9E56D0004137A7 /* es in Resources */ = {isa = PBXBuildFile; fileRef = 8DCFB5A32A9E56CF004137A7 /* es */; };
+		8DCFB5AB2A9E56D0004137A7 /* de in Resources */ = {isa = PBXBuildFile; fileRef = 8DCFB5A42A9E56CF004137A7 /* de */; };
+		8DCFB5AC2A9E56D0004137A7 /* it in Resources */ = {isa = PBXBuildFile; fileRef = 8DCFB5A52A9E56CF004137A7 /* it */; };
+		8DCFB5AD2A9E56D0004137A7 /* pt in Resources */ = {isa = PBXBuildFile; fileRef = 8DCFB5A62A9E56CF004137A7 /* pt */; };
+		8DCFB5AE2A9E56D0004137A7 /* nl in Resources */ = {isa = PBXBuildFile; fileRef = 8DCFB5A72A9E56D0004137A7 /* nl */; };
+		8DCFB5B02A9E5DB6004137A7 /* ShapesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DCFB5AF2A9E5DB6004137A7 /* ShapesView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,12 +82,22 @@
 		8D20DAD32A9CB57D00D7BA47 /* Baby Flashcards Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Baby Flashcards Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D20DAD72A9CB57D00D7BA47 /* Baby_Flashcards_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Baby_Flashcards_Watch_AppUITests.swift; sourceTree = "<group>"; };
 		8D20DAD92A9CB57D00D7BA47 /* Baby_Flashcards_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Baby_Flashcards_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8DA4E1772B0CB4BB009E52FA /* Baby-Flashcards-Watch-App-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Baby-Flashcards-Watch-App-Info.plist"; sourceTree = SOURCE_ROOT; };
 		8DC496A42A9CF8A600494B6E /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		8DC496A92A9CFBB400494B6E /* RotatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotatingView.swift; sourceTree = "<group>"; };
 		8DC496AB2A9CFF2C00494B6E /* AnimalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalView.swift; sourceTree = "<group>"; };
 		8DC496AD2A9D038400494B6E /* ColorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorView.swift; sourceTree = "<group>"; };
 		8DC496AF2A9D118300494B6E /* NumbersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumbersView.swift; sourceTree = "<group>"; };
 		8DC496B12A9D120E00494B6E /* NavigationButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationButton.swift; sourceTree = "<group>"; };
+		8DCFB59F2A9E52B6004137A7 /* UserPreferences.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserPreferences.swift; sourceTree = "<group>"; };
+		8DCFB5A12A9E56CF004137A7 /* fi */ = {isa = PBXFileReference; lastKnownFileType = folder; path = fi; sourceTree = "<group>"; };
+		8DCFB5A22A9E56CF004137A7 /* en */ = {isa = PBXFileReference; lastKnownFileType = folder; path = en; sourceTree = "<group>"; };
+		8DCFB5A32A9E56CF004137A7 /* es */ = {isa = PBXFileReference; lastKnownFileType = folder; path = es; sourceTree = "<group>"; };
+		8DCFB5A42A9E56CF004137A7 /* de */ = {isa = PBXFileReference; lastKnownFileType = folder; path = de; sourceTree = "<group>"; };
+		8DCFB5A52A9E56CF004137A7 /* it */ = {isa = PBXFileReference; lastKnownFileType = folder; path = it; sourceTree = "<group>"; };
+		8DCFB5A62A9E56CF004137A7 /* pt */ = {isa = PBXFileReference; lastKnownFileType = folder; path = pt; sourceTree = "<group>"; };
+		8DCFB5A72A9E56D0004137A7 /* nl */ = {isa = PBXFileReference; lastKnownFileType = folder; path = nl; sourceTree = "<group>"; };
+		8DCFB5AF2A9E5DB6004137A7 /* ShapesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapesView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,6 +149,9 @@
 		8D20DABB2A9CB57C00D7BA47 /* Baby Flashcards Watch App */ = {
 			isa = PBXGroup;
 			children = (
+				8DA4E1772B0CB4BB009E52FA /* Baby-Flashcards-Watch-App-Info.plist */,
+				8DCFB59E2A9E52A9004137A7 /* Utils */,
+				8DCFB4F82A9E51A1004137A7 /* Sounds */,
 				8DC496A62A9CF8E100494B6E /* Views */,
 				8DC496A32A9CF82C00494B6E /* Screens */,
 				8D20DABC2A9CB57C00D7BA47 /* Baby_FlashcardsApp.swift */,
@@ -172,6 +194,7 @@
 				8DC496AB2A9CFF2C00494B6E /* AnimalView.swift */,
 				8DC496AD2A9D038400494B6E /* ColorView.swift */,
 				8DC496AF2A9D118300494B6E /* NumbersView.swift */,
+				8DCFB5AF2A9E5DB6004137A7 /* ShapesView.swift */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -183,6 +206,28 @@
 				8DC496B12A9D120E00494B6E /* NavigationButton.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		8DCFB4F82A9E51A1004137A7 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				8DCFB5A42A9E56CF004137A7 /* de */,
+				8DCFB5A22A9E56CF004137A7 /* en */,
+				8DCFB5A32A9E56CF004137A7 /* es */,
+				8DCFB5A12A9E56CF004137A7 /* fi */,
+				8DCFB5A52A9E56CF004137A7 /* it */,
+				8DCFB5A72A9E56D0004137A7 /* nl */,
+				8DCFB5A62A9E56CF004137A7 /* pt */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+		8DCFB59E2A9E52A9004137A7 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				8DCFB59F2A9E52B6004137A7 /* UserPreferences.swift */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -317,7 +362,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8DCFB5AA2A9E56D0004137A7 /* es in Resources */,
 				8D20DAC42A9CB57D00D7BA47 /* Preview Assets.xcassets in Resources */,
+				8DCFB5A92A9E56D0004137A7 /* en in Resources */,
+				8DCFB5AE2A9E56D0004137A7 /* nl in Resources */,
+				8DCFB5AB2A9E56D0004137A7 /* de in Resources */,
+				8DCFB5AC2A9E56D0004137A7 /* it in Resources */,
+				8DCFB5A82A9E56D0004137A7 /* fi in Resources */,
+				8DCFB5AD2A9E56D0004137A7 /* pt in Resources */,
 				8D20DAC12A9CB57D00D7BA47 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -347,9 +399,11 @@
 				8DC496AC2A9CFF2C00494B6E /* AnimalView.swift in Sources */,
 				8DC496AA2A9CFBB400494B6E /* RotatingView.swift in Sources */,
 				8DC496A52A9CF8A600494B6E /* HomeView.swift in Sources */,
+				8DCFB5A02A9E52B6004137A7 /* UserPreferences.swift in Sources */,
 				8DC496B02A9D118300494B6E /* NumbersView.swift in Sources */,
 				8DC496B22A9D120E00494B6E /* NavigationButton.swift in Sources */,
 				8D20DABF2A9CB57C00D7BA47 /* AlphabetView.swift in Sources */,
+				8DCFB5B02A9E5DB6004137A7 /* ShapesView.swift in Sources */,
 				8D20DABD2A9CB57C00D7BA47 /* Baby_FlashcardsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -512,6 +566,7 @@
 				DEVELOPMENT_TEAM = 65W87DD398;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Baby-Flashcards-Watch-App-Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "Baby Flashcards";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_WKWatchOnly = YES;
@@ -542,6 +597,7 @@
 				DEVELOPMENT_TEAM = 65W87DD398;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Baby-Flashcards-Watch-App-Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "Baby Flashcards";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_WKWatchOnly = YES;

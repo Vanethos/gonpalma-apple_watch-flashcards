@@ -51,8 +51,18 @@ struct HomeView: View {
                 }
                 .buttonStyle(PlainButtonStyle())
                 
+                NavigationLink(destination: ColorView()) {
+                    NavigationButton(
+                        emoji: "🔷",
+                        text: "Shapes",
+                        color: .orange
+                    )
+                    
+                }
+                .buttonStyle(PlainButtonStyle())
                 
-            }.navigationTitle("Bananas")
+                
+            }.navigationTitle("FlashBaby")
         }
         }
 }
